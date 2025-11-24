@@ -1,7 +1,10 @@
-starlette>=0.30.0
-pydantic>=2
-rich>=13
-pytest>=8
-torch>=2
-numpy>=1
-setuptools>=68
+fastapi
+uvicorn
+transformers>=4.0.0
+torch
+datasets
+scikit-learn
+requests
+pydantic
+beautifulsoup4
+pytest
