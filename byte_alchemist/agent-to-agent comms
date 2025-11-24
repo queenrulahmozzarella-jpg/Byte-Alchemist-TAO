@@ -1,0 +1,4 @@
+uvicorn byte_alchemist.api:app --host 0.0.0.0 --port 8000
+import requests
+r = requests.post("http://<agent-host>:8000/generate", json={"prompt":"Write a python function that returns factorial"})
+print(r.json())
