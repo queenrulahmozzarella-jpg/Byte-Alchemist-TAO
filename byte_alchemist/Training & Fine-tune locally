@@ -1,0 +1,2 @@
+from byte_alchemist.trainer import train
+train("facebook/opt-125m", train_texts, epochs=1, batch_size=2)
